@@ -219,3 +219,13 @@ omit = [
     "pyrekordbox/__main__.py",
 ]
 ignore_errors = true
+
+# [tool.uv.workspace]
+# members = [
+#     ".",
+#     ".",
+# ]
+
+[tool.uv.sources]
+pyrekordbox = { workspace = true, editable = true }
+
