@@ -46,7 +46,7 @@ where `VERSION` is a release, tag or branch name.
 
 
 Unlocking the new Rekordbox `master.db` database file requires [SQLCipher][sqlcipher].
-Pyrekordbox tries to install pre-built wheels with included sqlcipher binaries via the [sqlcipher3-wheels] package.
+Pyrekordbox tries to install pre-built wheels with included sqlcipher binaries via the [sqlcipher3] package.
 If this fails, it can be installed manually following the [installation guide][installation].
 
 
@@ -313,7 +313,6 @@ If pyrekordbox has helped you or saved you time, consider supporting its develop
 
 [repo]: https://github.com/dylanljones/pyrekordbox
 [sqlcipher]: https://www.zetetic.net/sqlcipher/open-source/
-[sqlcipher3-wheels]: https://github.com/laggykiller/sqlcipher3
 [rekordcrate]: https://github.com/Holzhaus/rekordcrate
 [crate-digger]: https://github.com/Deep-Symmetry/crate-digger
 [supbox]: https://github.com/gabek/supbox
