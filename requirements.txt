@@ -10,7 +10,7 @@ psutil>=5.9.0
 setuptools>=61.0.0
 setuptools-scm[toml]>=4
 sqlalchemy[mypy]>=2.0.0
-sqlcipher3-wheels
+sqlcipher3
 python-dateutil
 
 mypy
